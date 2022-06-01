@@ -12,8 +12,12 @@ header  {
 h1  {
     font-family: 'Fraunces', serif;
 }
-footer  {
-    background-color: hsl(168, 34%, 41%);
+#under-header   {
+    background-color: rgb(0, 145, 255);
+    color: white;
+}
+#image-header   {
+    width: 1440px;
 }
 button  {
     margin: 10px;
@@ -24,4 +28,7 @@ button  {
     width: 90px;
     border-style: solid;
     margin: 0;
+}
+footer  {
+    background-color: hsl(168, 34%, 41%);
 }
