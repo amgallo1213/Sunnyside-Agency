@@ -20,6 +20,14 @@ h1  {
 #image-header   {
     width: 1440px;
 }
+#body   {
+    display: flex;
+    flex-direction: column;
+}
+.rows  {
+    display: flex;
+    flex-direction: row;
+}
 button  {
     margin: 10px;
     background-color: lightgrey;
@@ -29,6 +37,10 @@ button  {
     width: 90px;
     border-style: solid;
     margin: 0;
+}
+#bottom-row-photos  {
+    display: flex;
+    flex-direction: row;
 }
 footer  {
     background-color: hsl(168, 34%, 41%);
