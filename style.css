@@ -20,13 +20,28 @@ h1  {
 #image-header   {
     width: 1440px;
 }
-#body   {
+#body  {
     display: flex;
     flex-direction: column;
 }
 .rows  {
     display: flex;
     flex-direction: row;
+}
+#client-testimonials    {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+#clients    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.client-photo   {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
 button  {
     margin: 10px;
@@ -42,6 +57,7 @@ button  {
     display: flex;
     flex-direction: row;
 }
+
 footer  {
     background-color: hsl(168, 34%, 41%);
 }
