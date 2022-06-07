@@ -33,9 +33,13 @@ h1  {
 }
 .offering   {
     width: 720px;
+    margin: 20px;
 }
 .offering-photo {
     width: 720px;
+}
+#transform  {
+    margin: 20px;
 }
 #client-testimonials    {
     display: flex;
