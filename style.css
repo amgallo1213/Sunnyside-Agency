@@ -123,14 +123,14 @@ footer  {
 
 .agency-name {
     position: absolute;
-    top: 8px;
+    top: 25px;
     left: 16px;
     color: white;
     font-family: 'Barlow', sans-serif;
 }
 .header-right-side   {
     position: absolute;
-    top: 8px;
+    top: 25px;
     right: 16px;
     font-family: 'Barlow', sans-serif;
 }
@@ -146,4 +146,17 @@ button  {
     width: 90px;
     border-style: solid;
     margin: 0;
+}
+h1  {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 40%;
+    color: white;
+    font-family: 'Fraunces', serif;
+}
+#arrow-down {
+    position: absolute;
+    top: 45%;
+    left: 50%;
 }
