@@ -4,6 +4,9 @@ font-family: 'Fraunces', serif; */
 *   {
     margin: 0px;
 }
+body{
+    margin: 0px;
+}
 #header   {
     position: relative;
     text-align: center;
@@ -13,6 +16,7 @@ font-family: 'Fraunces', serif; */
     position: relative;
     text-align: center;
     top: 150px;
+    font-family: 'Barlow', sans-serif;
 }
 #tag    {
     position: relative;
@@ -27,7 +31,8 @@ h1  {
     font-family: 'Fraunces', serif;
 }
 #image-header   {
-    width: 1440px;
+    width: 100%;
+    margin-top: 0px;
 }
 #body  {
     display: flex;
