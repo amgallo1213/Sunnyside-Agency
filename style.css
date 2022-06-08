@@ -1,15 +1,6 @@
 /* font-family: 'Barlow', sans-serif;
 font-family: 'Fraunces', serif; */
 
-/* header  {
-    background-color: rgb(0, 145, 255);
-    color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-    font-family: 'Barlow', sans-serif;
-} */
 *   {
     margin: 0px;
 }
@@ -35,7 +26,6 @@ h2  {
 h1  {
     font-family: 'Fraunces', serif;
 }
-
 #image-header   {
     width: 1440px;
 }
@@ -45,6 +35,9 @@ h1  {
 }
 .titles {
     font-family: 'Fraunces', serif;
+}
+p   {
+    font-family: 'Barlow', sans-serif;
 }
 .rows  {
     display: flex;
@@ -71,12 +64,14 @@ h1  {
     top: 75%;
     left: 40%;
     transform: translate(-25%, -60%);
+    color:  hsl(167, 40%, 24%);
 }
 .photography    {
     position: absolute;
     top: 75%;
     left:40%;
     transform: translate(-25%, -60%);
+    color: hsl(198, 62%, 26%);
 }
 #client-testimonials    {
     display: flex;
