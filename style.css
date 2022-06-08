@@ -10,9 +10,16 @@ font-family: 'Fraunces', serif; */
     align-items: baseline;
     font-family: 'Barlow', sans-serif;
 } */
-.header  {
-    display: inline-block;
+.header {
     position: relative;
+    text-align: center;
+    top: 150px;
+}
+#tag    {
+    position: relative;
+    text-align: center;
+    top: 150px;
+    color: white;
 }
 h2  {
     display: inline-block;
