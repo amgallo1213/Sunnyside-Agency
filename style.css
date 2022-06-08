@@ -50,6 +50,10 @@ h1  {
 #transform  {
     margin: 20px;
 }
+#graphic-design, #photography {
+    position: relative;
+    text-align: center;
+}
 #client-testimonials    {
     display: flex;
     flex-direction: column;
