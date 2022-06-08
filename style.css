@@ -1,63 +1,13 @@
 /* font-family: 'Barlow', sans-serif;
 font-family: 'Fraunces', serif; */
 
-/* *   {
-    margin: 0px;
-}
-#header   {
-    position: relative;
-    text-align: center;
-    color: white;
-    margin-top: 0px;
-}
-.header {
-    position: relative;
-    text-align: center;
-    top: 150px;
-    font-family: 'Barlow', sans-serif;
-}
-#tag    {
-    position: relative;
-    text-align: center;
-    top: 150px;
-    color: white;
-}
-h2  {
-    display: inline-block;
-}
-h1  {
-    font-family: 'Fraunces', serif;
-}
-#image-header   {
-    width: 100%;
-    margin-top: 0px;
-}
-#body  {
+
+
+/*#body  {
     display: flex;
     flex-direction: column;
 }
-.titles {
-    font-family: 'Fraunces', serif;
-}
-p   {
-    font-family: 'Barlow', sans-serif;
-}
-.rows  {
-    display: flex;
-    flex-direction: row;
-    margin: 0px;
-}
-.offering   {
-    width: 720px;
-    margin: 20px;
-}
-.offering-photo {
-    width: 720px;
-    margin-left: 595px;
-}
-#transform  {
-    margin: 20px;
-}
+
 #graphic-design, #photography {
     position: relative;
     text-align: center;
@@ -81,8 +31,8 @@ p   {
     flex-direction: column;
     align-items: center;
     padding: 50px;
-    /* margin: 50px; */
-/* }
+    margin: 50px; 
+}
 #clients    {
     display: flex;
     flex-direction: row;
@@ -162,4 +112,8 @@ h1  {
     position: absolute;
     top: 45%;
     left: 50%;
+}
+.row-one-column {
+    float: left;
+    width: 50%;
 }
