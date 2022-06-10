@@ -121,3 +121,7 @@ h1  {
     float: left;
     width: 50%;
 }
+.row-two-column {
+    float: right;
+    width: 50%;
+}
