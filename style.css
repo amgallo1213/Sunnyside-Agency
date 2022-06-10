@@ -78,6 +78,10 @@ footer  {
     color: white;
     font-family: 'Barlow', sans-serif;
 }
+.header {
+    margin: 0px;
+    padding: 0px;
+}
 .header-right-side   {
     position: absolute;
     top: 25px;
