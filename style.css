@@ -1,17 +1,7 @@
 /* font-family: 'Barlow', sans-serif;
 font-family: 'Fraunces', serif; */
 
-
-
-/*#body  {
-    display: flex;
-    flex-direction: column;
-}
-
-#graphic-design, #photography {
-    position: relative;
-    text-align: center;
-}
+/*
 .graphic-design {
     position: absolute;
     top: 75%;
@@ -19,6 +9,8 @@ font-family: 'Fraunces', serif; */
     transform: translate(-25%, -60%);
     color:  hsl(167, 40%, 24%);
 }
+
+
 .photography    {
     position: absolute;
     top: 75%;
@@ -26,6 +18,8 @@ font-family: 'Fraunces', serif; */
     transform: translate(-25%, -60%);
     color: hsl(198, 62%, 26%);
 }
+
+
 #client-testimonials    {
     display: flex;
     flex-direction: column;
@@ -122,6 +116,6 @@ h1  {
     width: 50%;
 }
 .row-two-column {
-    float: right;
+    float: left;
     width: 50%;
 }
