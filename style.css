@@ -2,20 +2,7 @@
 font-family: 'Fraunces', serif; */
 
 /*
-.graphic-design {
-    position: absolute;
-    top: 75%;
-    left: 40%;
-    transform: translate(-25%, -60%);
-    color:  hsl(167, 40%, 24%);
-}
-.photography    {
-    position: absolute;
-    top: 75%;
-    left:40%;
-    transform: translate(-25%, -60%);
-    color: hsl(198, 62%, 26%);
-}
+
 
 
 #client-testimonials    {
@@ -109,9 +96,13 @@ h1  {
     top: 45%;
     left: 50%;
 }
+.row-one    {
+    display: inline-block;
+}
 .row-one-photo {
-    float: left;
+    /* float: left; */
     width: 50%;
+    display: inline-block;
 }
 #transform  {
     float: left;
@@ -121,8 +112,34 @@ h1  {
     float: left;
     width: 50%;
 }
-.stand-out  {
+.stand-out {
     font-size: 1.5em;
     padding-top: 20px;
     padding-left: 20px;
+    height: 100%;
+    width: 50%;
+}
+.row-three  {
+    display: flex;
+    flex-direction: row;
+}
+/* .graphic-design {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    transform: translate(-25%, -60%);
+    color:  hsl(167, 40%, 24%);
+}
+.photography    {
+    position: absolute;
+    top: 75%;
+    left:40%;
+    transform: translate(-25%, -60%);
+    color: hsl(198, 62%, 26%);
+} */
+
+
+#orange {
+    float: right;
+    width: 50%;
 }
