@@ -123,7 +123,13 @@ h1  {
     width: 100px;
     border-radius: 50%;
 }
-
+.bottom-photo   {
+    width: 100%;
+}
+#bottom-row-photos  {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
 
 /* .graphic-design {
     position: absolute;
