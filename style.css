@@ -20,11 +20,7 @@ font-family: 'Fraunces', serif; */
 .one-client {
     margin: 50px;
 }
-.client-photo   {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
+
 button  {
     margin: 10px;
     background-color: lightgrey;
@@ -112,8 +108,23 @@ h1  {
 }
 .graphic-design {
     margin-left: 25%;
-    margin-bottom: 25%;
+    color:  hsl(167, 40%, 24%);
 }
+.photography    {
+    margin-left: 35%;
+    color: hsl(198, 62%, 26%);
+}
+#client-testimonials    {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.client-photo   {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
 /* .graphic-design {
     position: absolute;
     top: 75%;
