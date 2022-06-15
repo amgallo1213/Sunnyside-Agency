@@ -31,13 +31,7 @@ button  {
     border-style: solid;
     margin: 0;
 }
-#bottom-row-photos  {
-    display: flex;
-    flex-direction: row;
-}
-.bottom-photo   {
-    width: 360px;
-}
+
 footer  {
     background-color: hsl(168, 34%, 41%);
     display: flex;
@@ -130,7 +124,20 @@ h1  {
     display: grid;
     grid-template-columns: repeat(4, 25%);
 }
-
+footer  {
+    background-color: hsl(168, 34%, 41%);
+    font-family: 'Barlow', sans-serif;
+}
+.titles {
+    font-weight: 700;
+    letter-spacing: .5em; 
+}
+.client-name    {
+    font-family: 'Fraunces', serif;
+}
+.client-title   {
+    font-family: 'Barlow', sans-serif;
+}
 /* .graphic-design {
     position: absolute;
     top: 75%;
@@ -146,8 +153,3 @@ h1  {
     color: hsl(198, 62%, 26%);
 } */
 
-
-/* #orange {
-    float: right;
-    width: 50%;
-} */
