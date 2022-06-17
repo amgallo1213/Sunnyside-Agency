@@ -84,6 +84,18 @@ h1  {
     font-size: 1.5em;
     font-weight: bold;
 }
+#learn-transform  {
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.4em;
+    text-decoration-color: hsl(51, 100%, 49%);
+}
+#learn-stand-out  {
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.4em;
+    text-decoration-color:  hsl(7, 99%, 70%);
+}
 #client-testimonials    {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
