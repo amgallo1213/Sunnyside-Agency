@@ -116,7 +116,9 @@ footer  {
 }
 #org-title  {
     text-align: center;
-    color:  hsl(212, 27%, 19%);
+    color:  hsl(167, 40%, 24%);
+    font-size: 1.75em;
+    font-weight: bold;
 }
 #footer-links   {
     text-align: center;   
@@ -124,6 +126,8 @@ footer  {
 .one-footer-link    {
     text-decoration: none;
     color:hsl(167, 40%, 24%);
+    padding: 20px;
+    margin-top: 40px;
 }
 #socials    {
     display: flex;
