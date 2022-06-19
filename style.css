@@ -54,6 +54,9 @@ h1  {
     grid-template-columns: repeat(2, 1.5fr);
     margin: 0px;
 }
+#egg  {
+    margin-left: 20px;
+}
 #transform  {
     font-size: 1.25em;
     padding-top: 40px;
@@ -88,7 +91,7 @@ h1  {
     font-weight: bold;
     text-decoration-line: underline;
     text-decoration-thickness: 0.4em;
-    text-decoration-color: hsl(51, 100%, 49%);
+    text-decoration-color: hsl(59, 94%, 61%);
 }
 #learn-stand-out  {
     font-weight: bold;
@@ -143,8 +146,8 @@ footer  {
 #org-title  {
     text-align: center;
     color:  hsl(167, 40%, 24%);
-    font-size: 1.75em;
-    font-weight: bolder;
+    font-size: 2em;
+    font-weight: 700;
 }
 #footer-links   {
     text-align: center;   
